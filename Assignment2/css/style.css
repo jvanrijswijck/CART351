@@ -1,0 +1,22 @@
+body{
+  background: white;
+}
+ 
+.container-2{
+  white-space: nowrap;
+  position: relative;
+  opacity: 1;
+  
+}
+
+input{
+    width: 350px;
+    height: 35px;
+}
+
+#redind{
+    width: 35%;
+    height: auto;
+    margin: 20px;
+}
+

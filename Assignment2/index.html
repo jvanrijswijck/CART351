@@ -3,10 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>One Single Section - fullPage.js</title>
-    <meta name="author" content="Alvaro Trigo Lopez" />
-    <meta name="description" content="fullPage One Single Section." />
-    <meta name="keywords" content="fullpage,One, Single, Section" />
+    <title>Reddit</title>
     <meta name="Resource-type" content="Document" />
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -87,6 +84,10 @@
                 , css3: true
             });
         });
+        
+        setTimeout(function () {
+            $.fn.fullpage.reBuild();
+        }, 1000);
     </script>
 </head>
 

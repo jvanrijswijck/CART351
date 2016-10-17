@@ -33,6 +33,15 @@ input {
     margin: 20px;
 }
 
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+
 
 /* nav bar */
 #header{
@@ -65,6 +74,7 @@ input {
     height: 50px
 }
 
+
 /* footer */
 
 #header, #footer{
@@ -91,6 +101,10 @@ input {
     max-height: 100%;
 height: auto;
 
+}
+
+.t1{
+    z-index: 1;
 }
 
 /* grid */
@@ -206,57 +220,48 @@ height: auto;
 		width: -webkit-calc(100% / 2);
 		width: calc(100% / 2);
 	}
+    .cbp-rfgrid li a:hover div {
+	opacity: 0;
+}
+        input {
+    width: 60%;
+    height: 35px;
+}
+    #redind {
+    width: 60%;
+    height: auto;
+    margin: 30px;
+}
+    .text{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    font-size: 10px;
+}
 }
 
 @media screen and (max-width: 300px) {
+    
 	.cbp-rfgrid li {
 		width: 100%;
-	}
+	}  
+    .cbp-rfgrid li a:hover div {
+	opacity: 0;
+}
+        input {
+    width: 60%;
+    height: 35px;
+}
+    #redind {
+    width: 65%;
+    height: auto;
+    margin: 45px;
+}
+    .text{
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+    font-size: 10px;
+}
 }
 
-/* Tooltip container */
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 9999;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-
-    /* Fade in tooltip */
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-/* Tooltip arrow */
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-}

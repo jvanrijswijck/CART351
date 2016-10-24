@@ -32,7 +32,7 @@
             echo "Forza ferarri";
         }
         else{
-            echo "Go home you cunt";
+            echo "test";
         }
 ?>
           </body>

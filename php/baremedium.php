@@ -8,6 +8,7 @@
         public $racer;
         public $team;
         public $wonagp;
+	public $wins;
         
         public function __construct($racer, $team, $wonagp, $wins){
             $this->racer = $racer;

@@ -94,3 +94,10 @@ img.img-responsive{
         height: relative;
     }
 }
+
+@media screen and (min-width: 600px){
+    .container-fluid {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}

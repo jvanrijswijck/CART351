@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.container-fluid #login {
+    font-weight: bolder;
+}
+
+.container-fluid {
+    font-family: "Consolas", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Monaco", "Courier New", monospace;
+    color: #CBC5AF;
+}
+
+.container-fluid #Posts {
+    border: thin solid #000000;
+    color: #999791;
+}
+
+.container-fluid #PostsP {
+    color: #999791;
+    padding-bottom: 35px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+a.link{
+    font-size: 16px;
+    font-family: Consolas;
+    font-weight: bolder;
+    color: #CBC5AF;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+
+
+.profile {
+    background-color: #FFFFFF;
+}
+
+img.img-responsive{
+    margin-top: 10px;
+}
+
+#image {}
+
+#login {
+    font-size: 16px;
+    font-family: Consolas;
+    font-weight: bolder;
+    color: #CBC5AF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fade {
+    background-color:
+}
+
+.nav-tabs {}
+
+.tab-content {
+    margin-top: -42px !important;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFFFFF;
+}
+
+.tab-pane {
+    margin-bottom: 0px !important;
+}
+
+#footer {
+    width: 60%;
+    height: relative;
+}
+
+@media screen and (max-width: 600px) {
+    #footer {
+        width: 90%;
+        height: relative;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #footer {
+        width: 100%;
+        height: relative;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    #footer {
+        width: 100%;
+        height: relative;
+    }
+}

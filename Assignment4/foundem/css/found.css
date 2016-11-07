@@ -55,7 +55,11 @@ img.img-responsive{
     background-color:
 }
 
-.nav-tabs {}
+
+.empty{
+    background-color: #999791;
+    height: 150px;
+}
 
 .tab-content {
     margin-top: -42px !important;
@@ -79,6 +83,11 @@ img.img-responsive{
         width: 90%;
         height: relative;
     }
+    
+    .empty{
+    background-color: #999791;
+    height: 80px;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -86,6 +95,11 @@ img.img-responsive{
         width: 100%;
         height: relative;
     }
+    
+    .empty{
+    background-color: #999791;
+    height: 50px;
+}
 }
 
 @media screen and (max-width: 200px) {
@@ -93,6 +107,11 @@ img.img-responsive{
         width: 100%;
         height: relative;
     }
+    
+    .empty{
+    background-color: #999791;
+    height: 80px;
+}
 }
 
 @media screen and (min-width: 600px){
